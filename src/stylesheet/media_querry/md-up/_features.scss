@@ -1,0 +1,13 @@
+.features {
+
+    &:first-child {
+      display: flex;
+
+    &:nth-child(2){
+
+      .h2, .p{
+        flex: 1 1 75%;
+      }
+    }
+  }
+}

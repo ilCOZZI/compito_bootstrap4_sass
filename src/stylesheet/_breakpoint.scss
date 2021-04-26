@@ -1,0 +1,30 @@
+@import 'default/base';
+@import 'abstracts/base';
+@import 'media_querry/lg-up/base';
+@import 'media_querry/md-up/base';
+@import 'media_querry/sm-up/base';
+@import 'media_querry/sm-down/base';
+
+@import '../bootstrap/scss/bootstrap.scss';
+
+@media only screen and(min-width: $sm-breakpoint) { 
+  @import 'media_querry/sm-up/base';
+}
+
+@media only screen and (min-width: $md-breakpoint) {
+
+  @import 'media_querry/md-up/base';
+
+}
+
+@media only screen and (min-width: $lg-breakpoint) {
+
+  @import 'media_querry/lg-up/base';
+
+}
+
+@media only screen and (max-width: $xl-breakpoint) {
+ 
+  @import 'media_querry/sm-down/base';
+
+}

@@ -1,0 +1,27 @@
+.impaginazione{
+  padding: 250px  110px;
+  background: url(../src/immagini/trattore.jpg) no-repeat center/cover;
+  background-size: 1520px 700px;
+  color: #fff;
+  margin-bottom: 85px;
+  background-position: top;
+}
+
+  h4.display-6 {
+    font-size: 1.7rem;
+}
+
+.row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -100px;
+  position: absolute;
+  margin-top: 70px;
+
+  .btn{
+  font-family: arial;
+  }
+}
