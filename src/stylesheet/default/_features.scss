@@ -1,19 +1,33 @@
-.features{
-    background-image: linear-gradient(110deg, #44d7b6, #37b998 100%);
+.row3{
+    background-color: #44d7b6;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 30px;
+      color: #fff;
+      font-size: 25px;
 
+      .left{
+        text-align: center;
 
-  img {
-    width: 70%;
-  }
+        img{
+          width: 100%;
+          margin: 10px;
+        }
+      }
 
-  .picture {
-    background: url(../immagini/trattore.jpg) no-repeat center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+      .right{
 
-  .h2, .p {
-    text-align: left;
-  }
+        img{
+          width: 50%;
+          margin: 10px;
+        }
+
+        .p{
+          float: right;
+          padding: 0px;
+        }
+      }
 }

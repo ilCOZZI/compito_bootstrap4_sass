@@ -1,7 +1,6 @@
 // Container widths
 //
 // Set the container width, and override it for fixed navbars in media queries.
-
 @if $enable-grid-classes {
   .container {
     @include make-container();
@@ -49,4 +48,20 @@
 
 @if $enable-grid-classes {
   @include make-grid-columns();
+}
+
+.Rectangle {
+  margin: -245px 0px 0px 260px;
+  background-color: #e77474;
+  font-family: arial;
+  
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 16.66667%;
+  flex: 0 0 16.66667%;
+  max-width: 16.66667%;
+  max-width: 19.66667%;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
