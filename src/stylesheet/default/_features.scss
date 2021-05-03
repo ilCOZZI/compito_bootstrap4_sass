@@ -1,33 +1,14 @@
-.row3{
-    background-color: #44d7b6;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-      padding: 30px;
-      color: #fff;
-      font-size: 25px;
+.parte_sinistra{
+  background-color: #44d7b6;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
-      .left{
-        text-align: center;
-
-        img{
-          width: 100%;
-          margin: 10px;
-        }
-      }
-
-      .right{
-
-        img{
-          width: 50%;
-          margin: 10px;
-        }
-
-        .p{
-          float: right;
-          padding: 0px;
-        }
-      }
+  font-family: PlayfairDisplay-Regular_;
+  
+     img,p{
+     padding: 10px;
+    }
 }

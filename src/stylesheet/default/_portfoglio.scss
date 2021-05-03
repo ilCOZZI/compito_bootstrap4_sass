@@ -1,13 +1,29 @@
 div#portfoglio {
   padding-bottom: 75px;
+  font-family: PlayfairDisplay-Regular_;
+  text-align: center;
+
+  h6{
+  font-size: 1.5rem;
+  }
+
+  img{
+    font-size: 3rem;
+  }
 }
 
-.row2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+.rectangle{
+  background-color: #e77474;
+  padding: 0px 10px 0px 10px;
+  margin: -303px 20px -15px 350px;
+  color: #fff;
+  font-family: arial;
+  position: absolute;
+}
+
+@media (max-width: 767px) {
+
+  .rectangle{
+    margin: -262px 15px 238px 215px;
+  }
 }

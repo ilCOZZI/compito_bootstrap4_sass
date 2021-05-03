@@ -1,23 +1,19 @@
 .impaginazione{
-  padding: 250px  110px;
   background: url(../src/immagini/trattore.jpg) no-repeat center/cover;
-  background-size: 1520px 700px;
   color: #fff;
   margin-bottom: 85px;
+  padding-bottom: 50px;
   background-position: top;
-}
+  font-family: PlayfairDisplay-Regular_;
+  padding-top: 250px;
 
-.row1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-left: -100px;
-  position: absolute;
-  margin-top: 70px;
+  h4{
+    font-size: 2.3rem;
+  }
 
   .btn{
-  font-family: arial;
+    font-family: arial;
+    padding: 0.4rem 1.75rem;
+    border: none;
   }
 }

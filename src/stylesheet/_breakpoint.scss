@@ -2,13 +2,3 @@
 @import 'default/base';
 
 @import '../bootstrap/scss/bootstrap.scss';
-
-@media only screen and(min-width: $sm-breakpoint) { 
-  @import 'media_querry/sm-up/base';
-}
-
-@media only screen and (min-width: $md-breakpoint) {
-
-  @import 'media_querry/md-up/base';
-
-}

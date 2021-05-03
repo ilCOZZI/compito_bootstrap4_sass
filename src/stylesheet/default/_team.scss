@@ -1,6 +1,4 @@
 .team{
-    width: 1160px;
-    height: 518px;
     margin: 40px 60px 57px;
     padding: 35px 35px 34px 34px;
     border-radius: 2rem;
@@ -8,20 +6,20 @@
     background-image: linear-gradient(113deg, #4E3CAE 1%, #785AED);
 
 
-  img {
-      width: 591px;
-      height: 450px;
+  .img-fluid{
       border-radius: 2rem;
   }
 
    p {
   color: white;
   font-family: system-ui;
+  font-size: 1.4rem;
+  padding-bottom: 20px;
   }
 
 h3 {
-  font-size: 2.5rem;
-  padding: 10px;
+  font-size: 3rem;
+  padding: 40px 0px 40px 0px;
   color: white;
   font-family: system-ui;
 }
