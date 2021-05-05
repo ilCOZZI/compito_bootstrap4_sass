@@ -1,10 +1,17 @@
 .footer {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap; // allow us to do the line break for collapsing content
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
-  justify-content: space-between; // space out brand from logo
-  padding: 2rem 2.5rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding:1.5rem;
   color: #fff;
   background:#343434;
   font-family: PlayfairDisplay-Regular_;

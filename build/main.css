@@ -23,30 +23,19 @@
   color: #fff;
   text-align: center;
   font-size: 1.6rem;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 0px 30px 0px;
   font-family: PlayfairDisplay-Regular_;
 }
 
 .parte_sinistra img, .parte_sinistra p {
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
-.navbar1 {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0.5rem 1rem;
-  font-family: arial;
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1071;
 }
 
 .form-group {
@@ -74,14 +63,14 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 2rem 2.5rem;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1.5rem;
   color: #fff;
   background: #343434;
   font-family: PlayfairDisplay-Regular_;
