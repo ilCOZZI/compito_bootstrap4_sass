@@ -1,13 +1,12 @@
 .footer {
-  
-position: relative;
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-justify-content: space-between;
 padding: 2.5rem;
 color: #fff;
 background: #343434;
 font-family: PlayfairDisplay-Regular_;
-  font-size: 1.3rem;
+font-size: 1.3rem;
+font-weight: bold;
+
+.parte_destra{
+  text-align: right;
+}
 }
