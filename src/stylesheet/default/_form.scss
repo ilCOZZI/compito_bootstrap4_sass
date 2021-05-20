@@ -1,18 +1,41 @@
-.form-group{
-   background: #f2f2f2;
-   width: 100%;    
-   padding: 100px 0px 100px 0px;
-   font-family: PlayfairDisplay-Regular_;
-   font-size: 1.5rem;
-   text-align: center;
+.contattaci_form{
+  background-image: linear-gradient(109deg, #8bde8f, #2ac188);
+  padding-top: 5rem;
+  padding-bottom: 24rem;
 
-    .text-center {
-    color: #000;
-    font-size: 1.5rem;
+  .contattaci_parola{
+    padding: 125px 20px 20px 20px;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 500;
   }
 
-  .form-control{
-    margin: 0 auto;
-    max-width: 400px;
+  .campi_form {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .form-control{
+      padding: 1.3rem 1.3rem;
+    }
   }
+  .bottone_form{
+      margin-left: 34rem;
+      background-color: #9d01e6;
+      border-radius: 20px;
+      padding-left: 35px;
+      padding-right: 35px;
+      border: none;
+      font-size: 20px;
+  }
+  
+  .checkbox_privacy{
+    font-size: 20px;
+    color: #fff;
+  }
+
+  .custom-checkbox .custom-control-label::before {
+    border-radius: 0.25rem;
+    padding: 10px;
+    margin-top: 2px;
+}
 }
