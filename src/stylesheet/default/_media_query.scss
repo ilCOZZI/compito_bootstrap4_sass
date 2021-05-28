@@ -1,0 +1,51 @@
+@media (max-width: 767px) {
+    
+    .master, .aziende, .berlino, .milano, .piattaforma {
+      display: none;
+    }
+
+    .contattaci_form .bottone_form {
+      margin-left: 6rem;
+    }
+
+    .button_contatti{
+      float: left !important;
+    }
+
+    .parte_scrivi_qualcosa{
+      display: none;
+    }
+
+    .team{
+      display: none;
+    }
+
+    .vertical{
+      height: 115rem;
+    }
+
+    .contattaci {
+      margin-top: 115rem;
+      padding-bottom: 25rem !important;
+      text-align: center;
+
+      .btn{
+        margin-left: 2rem;
+      }
+    }
+
+    .contattaci_form{
+      padding-top: 0;
+      padding-bottom: 31.8rem;
+
+      .contattaci_parola{
+        padding-top: 2rem !important;
+        text-align: center;
+        font-size: 35;
+      }
+    }
+
+    .team_mobile{
+      display: block;
+    }
+}

@@ -9,142 +9,121 @@
 }
 
 .vertical {
-  border-left: 15px solid #9d01e6;
-  height: 115rem;
+  border-left: 15px solid #a302e8;
+  height: 128rem;
   position: absolute;
   left: 50%;
 }
 
-.team_parte_sinistra {
-  padding-bottom: 70px;
+.BERLINO {
+  padding-bottom: 25rem !important;
+  padding-top: 3rem;
 }
 
-.team_parte_sinistra.col-md-6 {
-  max-width: 48% !important;
+.MILANO, .PIATTAFORMA, .MASTER, .AZIENDE {
+  padding-bottom: 25rem !important;
 }
 
-.team_parte_sinistra img {
+.team_parte_sinistra, .team_parte_destra {
+  padding-right: 32px !important;
+  padding-left: 45px !important;
+}
+
+img {
   max-width: 300px;
 }
 
-.team_parte_sinistra .parte-card-anno {
+.parte-card-anno {
   text-align: center;
   max-width: 18rem;
   border-radius: 10px;
   float: right;
-  margin-top: 100px;
+  margin-top: 3rem;
 }
 
-.team_parte_sinistra .parte-card-anno .card-header {
+.parte-card-anno .card-header {
   background-color: #0ace99;
   color: #fff;
+  border-radius: 1rem 1rem 0rem 0rem !important;
 }
 
-.team_parte_sinistra .card-body {
+.card {
+  border-radius: 1rem 1rem 1rem 1rem !important;
+}
+
+.card-body {
   text-align: center;
   max-width: 18rem;
   border-radius: 10px;
 }
 
-.team_parte_sinistra .card-img-area {
+.card-text {
+  padding-bottom: 7px;
+}
+
+.card-img-area {
   text-align: center;
   background-image: -webkit-gradient(linear, left top, right top, from(#10ce9a), to(#98ed9c));
   background-image: linear-gradient(to right, #10ce9a 0%, #98ed9c 100%);
+  border-radius: 1rem 1rem 0rem 0rem;
 }
 
-.team_parte_sinistra .card-img-top {
-  max-width: 100px;
+.card-img-top {
+  max-width: 85px;
+  margin-bottom: -37px;
+  padding-top: 20px;
 }
 
-.team_parte_sinistra .berlino {
-  max-width: 300px;
-  padding-left: 65px;
-  padding-top: 55px;
+.berlino {
+  max-width: 19rem;
+  padding-left: 3rem;
 }
 
-.team_parte_sinistra.parte_berlino {
-  padding-bottom: 67px;
-  float: left;
+.milano {
+  max-width: 17rem;
+  padding-left: 5rem;
 }
 
-.team_parte_sinistra .piattaforma {
-  padding-top: 100px;
-  max-width: 350px;
-  padding-left: 60px;
+.piattaforma {
+  padding-top: 4rem;
+  max-width: 22rem;
+  padding-left: 4rem;
 }
 
-.team_parte_sinistra .aziende {
-  max-width: 280px;
-  padding: 125px 0px 0px 80px;
+.master {
+  padding-left: 5rem;
+  max-width: 23rem;
 }
 
-.team_parte_sinistra .h5_destra {
+.aziende {
+  max-width: 17rem;
+  padding-left: 6rem;
+  padding-top: 6rem;
+}
+
+.h5_sinistra {
   float: right;
   padding-left: 6rem;
+  padding-top: 1rem;
 }
 
-.team_parte_destra {
-  padding-top: 50px;
-  padding-bottom: 70px;
+.team_mobile {
+  padding-right: 2rem;
 }
 
-.team_parte_destra.col-md-6 {
-  max-width: 47% !important;
+.team_mobile .card-img-top {
+  max-width: 75px;
+  margin-bottom: 0px;
+  padding-top: 0px;
 }
 
-.team_parte_destra .card-body {
-  text-align: center;
-  max-width: 18rem;
-  border-radius: 10px;
+.team_mobile {
+  display: none;
 }
 
-.team_parte_destra .card-img-area {
-  text-align: center;
-  background-image: -webkit-gradient(linear, left top, right top, from(#10ce9a), to(#98ed9c));
-  background-image: linear-gradient(to right, #10ce9a 0%, #98ed9c 100%);
-}
-
-.team_parte_destra .card-img-top {
-  max-width: 100px;
-}
-
-.team_parte_destra .parte-card-anno {
-  text-align: center;
-  max-width: 18rem;
-  border-radius: 10px;
-  margin-top: 33px;
-}
-
-.team_parte_destra .card-header {
-  background-color: #0ace99;
-  color: #fff;
-}
-
-.team_parte_destra img.milano {
-  max-width: 300px;
-  padding-right: 130px;
-  float: right;
-}
-
-.team_parte_destra.parte_milano {
-  padding-top: 0;
-  float: right;
-  padding-bottom: 115px;
-}
-
-.team_parte_destra.parte_2018 {
-  padding-bottom: 96px;
-}
-
-.team_parte_destra .master {
-  max-width: 345px;
-  padding-left: 90px;
-  padding-bottom: 75px;
-}
-
-.team_parte_destra.parte_finale {
-  padding-top: 18px;
-  padding-bottom: 105px;
+.form_design {
+  color: #a8a8a8 !important;
+  margin-bottom: 3rem;
 }
 
 .contattaci_form {
@@ -166,7 +145,8 @@
 }
 
 .contattaci_form .campi_form .form-control {
-  padding: 1.3rem 1.3rem;
+  padding: 1.3rem 2.5rem;
+  margin-top: -35px;
 }
 
 .contattaci_form .bottone_form {
@@ -190,10 +170,13 @@
   margin-top: 2px;
 }
 
+.contattaci_form .parte_scrivi_qualcosa {
+  padding-top: 40px;
+}
+
 .contattaci {
   background-image: linear-gradient(100deg, #4e3cae 0%, #785aed 100%);
   border-radius: 0% !important;
-  margin-top: 115rem !important;
   padding-bottom: 14rem !important;
   margin-bottom: 0 !important;
 }
@@ -201,6 +184,10 @@
 .contattaci p {
   font-size: 1.5rem !important;
   color: #fff;
+}
+
+.contattaci .button_contatti {
+  float: right;
 }
 
 .contattaci .col-md-3 {
@@ -211,6 +198,47 @@
 .contattaci .col-md-3 .btn {
   background-color: #0ace99;
   border-radius: 2rem;
+}
+
+@media (max-width: 767px) {
+  .master, .aziende, .berlino, .milano, .piattaforma {
+    display: none;
+  }
+  .contattaci_form .bottone_form {
+    margin-left: 6rem;
+  }
+  .button_contatti {
+    float: left !important;
+  }
+  .parte_scrivi_qualcosa {
+    display: none;
+  }
+  .team {
+    display: none;
+  }
+  .vertical {
+    height: 115rem;
+  }
+  .contattaci {
+    margin-top: 115rem;
+    padding-bottom: 25rem !important;
+    text-align: center;
+  }
+  .contattaci .btn {
+    margin-left: 2rem;
+  }
+  .contattaci_form {
+    padding-top: 0;
+    padding-bottom: 31.8rem;
+  }
+  .contattaci_form .contattaci_parola {
+    padding-top: 2rem !important;
+    text-align: center;
+    font-size: 35;
+  }
+  .team_mobile {
+    display: block;
+  }
 }
 
 :root {

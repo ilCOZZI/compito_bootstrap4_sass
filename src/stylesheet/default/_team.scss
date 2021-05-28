@@ -1,132 +1,115 @@
-.team_parte_sinistra{
-
-  &.col-md-6{
-    max-width: 48% !important;
+.BERLINO{
+      padding-bottom: 25rem !important;
+      padding-top: 3rem;
+    }
+  
+    .MILANO, .PIATTAFORMA, .MASTER, .AZIENDE{
+      padding-bottom: 25rem !important;
+    }
+  
+  
+  .team_parte_sinistra, .team_parte_destra{
+      padding-right: 32px !important;
+      padding-left: 45px !important;
   }
-
-    padding-bottom: 70px;
-  img{
-    max-width: 300px;
-  }
-
-  .parte-card-anno{
-    text-align: center;
-    max-width: 18rem;
-    border-radius: 10px;
-    float: right;
-    margin-top: 100px;
-
-    .card-header{
-    background-color: #0ace99;
-    color: #fff;
+  
+    img{
+      max-width: 300px;
+    }
+  
+  
+  
+    .parte-card-anno{
+      text-align: center;
+      max-width: 18rem;
+      border-radius: 10px;
+      float: right;
+      margin-top: 3rem;
+  
+      .card-header{
+      background-color: #0ace99;
+      color: #fff;
+      border-radius: 1rem 1rem 0rem 0rem !important;
+      }
+    }
+  
+    .card{
+      border-radius: 1rem 1rem 1rem 1rem !important;
+    }
+  
+    .card-body{
+      text-align: center;
+      max-width: 18rem;
+      border-radius: 10px;
+    }
+  
+    .card-text{
+      padding-bottom: 7px;
+    }
+  
+    .card-img-area{
+      text-align: center;
+      background-image: linear-gradient(to right, #10ce9a 0%, #98ed9c 100%);
+      border-radius: 1rem 1rem 0rem 0rem;
+    }
+  
+    .card-img-top{
+      max-width: 85px;
+      margin-bottom: -37px;
+      padding-top: 20px;
+    }
+  
+  
+  
+    .berlino {
+      max-width: 19rem;
+      padding-left: 3rem;
+    }
+  
+    .milano {
+      max-width: 17rem;
+      padding-left: 5rem;
+    }
+  
+    .piattaforma {
+      padding-top: 4rem;
+      max-width: 22rem;
+      padding-left: 4rem;
+    }
+  
+    .master{
+      padding-left: 5rem;
+      max-width: 23rem;
+    }
+  
+    .aziende {
+      max-width: 17rem;
+      padding-left: 6rem;
+      padding-top: 6rem;
+    }
+  
+  
+  
+    .h5_sinistra{
+      float: right;
+      padding-left: 6rem;
+      padding-top: 1rem;
     }
 
-  }
-  .card-body{
-    text-align: center;
-    max-width: 18rem;
-    border-radius: 10px;
-  }
-
-  .card-img-area{
-    text-align: center;
-    background-image: linear-gradient(to right, #10ce9a 0%, #98ed9c 100%);
-  }
-
-  .card-img-top{
-    max-width: 100px;
-  }
-
-  .berlino{
-    max-width: 300px;
-    padding-left: 65px;
-    padding-top: 55px;
-  }
-
-  &.parte_berlino{
-    padding-bottom: 67px;
-    float: left;
-  }
-
-  .piattaforma {
-    padding-top: 100px;
-    max-width: 350px;
-    padding-left: 60px;
-  }
-
-  .aziende {
-    max-width: 280px;
-    padding: 125px 0px 0px 80px;
-  }
-
-  .h5_destra{
-    float: right;
-    padding-left: 6rem;
-  }
-}
 
 
 
-.team_parte_destra{
+    .team_mobile{
+      padding-right: 2rem;
 
-  &.col-md-6{
-    max-width: 47% !important;
-  }
+      .card-img-top {
+        max-width: 75px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+      }
+    }
+  
 
-  padding-top: 50px;
-  padding-bottom: 70px;
-
-  .card-body{
-    text-align: center;
-    max-width: 18rem;
-    border-radius: 10px;
-  }
-
-  .card-img-area{
-    text-align: center;
-    background-image: linear-gradient(to right, #10ce9a 0%, #98ed9c 100%);
-  }
-
-  .card-img-top{
-    max-width: 100px;
-  }
-
-.parte-card-anno{
-  text-align: center;
-  max-width: 18rem;
-  border-radius: 10px;
-  margin-top: 33px;
-}
-
-  .card-header{
-  background-color: #0ace99;
-  color: #fff;
-  }
-
-  img.milano{
-    max-width: 300px;
-    padding-right: 130px;
-    float: right;
-  }
-
-  &.parte_milano{
-    padding-top: 0;
-    float: right;
-    padding-bottom: 115px;
-  }
-
-  &.parte_2018{
-    padding-bottom: 96px;
-  }
-
-  .master{
-    max-width: 345px;
-    padding-left: 90px;
-    padding-bottom: 75px;
-  }
-
-  &.parte_finale {
-    padding-top: 18px;
-      padding-bottom: 105px;
-  }
-}
+    .team_mobile{
+      display: none;
+    }
